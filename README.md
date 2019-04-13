@@ -15,3 +15,18 @@ This app will generate auth token for accessing further APIs.
 4. Download *kandy.js* from [Developer documentation - SDKs](https://apimarket.att.com/developer/sdks/javascript)
 5. Open the index.html in the browser.
 6. After successful login you will get an *accessToken* that you can use to explore the other APIs.
+
+### Development
+
+To setup the project repository, run these commands
+
+```
+git clone https://github.com/hclsampleapps/kandy-cpaas2-sample-auth.git
+cd kandy-cpaas2-sample-auth
+```
+
+Then, open ```index.html``` in the browser to view the app.
+
+#### Branching strategy
+
+To learn about the branching strategy, contribution & coding conventions followed in the project, please refer [GitFlow based branching strategy for your project repository](https://gist.github.com/ribbon-abku/10d3fc1cff5c35a2df401196678e258a)
