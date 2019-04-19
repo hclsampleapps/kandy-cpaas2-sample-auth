@@ -1,20 +1,34 @@
-# kandy-sample-auth
+# kandy-cpaas2-sample-auth
 
 ### Auth app
 
 This app will generate auth token for accessing further APIs.
 
-#### Steps 
+ - Try the [demo](https://hclsampleapps.github.io/kandy-cpaas2-sample-auth/app/)
+ - Get the [source code](https://github.com/hclsampleapps/kandy-cpaas2-sample-auth)
+
+#### User manual 
 
 1. Create an account on **AT&T** portal via [Register now for a free account](https://apimarket.att.com/signup).
-2. After signup get the following 
-   - *clientId* 
-   - *emailId* 
-   - *password*
-3. If you are an existing user, please [Log in to AT&T API Marketplace](https://apimarket.att.com/login).
-4. Download *kandy.js* from [Developer documentation - SDKs](https://apimarket.att.com/developer/sdks/javascript)
-5. Open the index.html in the browser.
-6. After successful login you will get an *accessToken* that you can use to explore the other APIs.
+2. Open an instance of `index.html` in the browser for a *User*.
+3. Enter the *server URL*, for e.g.,
+	- For AT&T API Marketplace [apimarket.att.com](https://apimarket.att.com), enter `https://oauth-cpaas.att.com`
+4. Choose to get accessToken by *Password Grant* flow or *Client Credentials* flow.
+5. Login using *User*'s credential in the browser window.
+6. For **Password Grant** flow, enter 
+	- *clientId* 
+	- *emailId* 
+	- *password*  
+7. For **Client Credentials Grant** flow, enter
+	- *privateKey*
+	- *privateSecret*   
+8. Click ***Login***
+9. After successful login you will get an *accessToken* that you can use to explore the other APIs.
+
+##### Notes
+
+ - Existing user can confirm their account via [Log in to AT&T API Marketplace](https://apimarket.att.com/login)
+ - You can download *kandy.js* from [Developer documentation - SDKs](https://apimarket.att.com/developer/sdks/javascript)
 
 ### Development
 
